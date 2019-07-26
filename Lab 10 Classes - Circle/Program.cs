@@ -6,7 +6,7 @@ namespace Lab_10_Classes___Circle
     {
         static void Main(string[] args)
         {
-            //Get user input
+            int count = 0;
             double usrInput = 0;
             bool cont = true;
             while (cont)
@@ -33,6 +33,8 @@ namespace Lab_10_Classes___Circle
                 bool repeat = Circle.AskRepeat("Would you like to run the program again?(y/n)");
                 if (repeat == true)
                 {
+                    count++;
+                    Console.WriteLine($"So far you have created {count} circles.");
                     continue;
                 }
                 else if (repeat == false)
@@ -40,7 +42,8 @@ namespace Lab_10_Classes___Circle
                     Console.WriteLine("Goodbye.");
                     cont = false;
                 }
+
             }
         }
     }
-}//add a counter that prints at the end of every rotation and have each value printed to only show to the second decimal place
+}
