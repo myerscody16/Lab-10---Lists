@@ -5,7 +5,7 @@ using System.Linq;
 
 namespace Lab_10_Classes___Circle
 {
-    class Circle
+    public class Circle
     {
         #region Fields
         private double radius;
@@ -51,35 +51,62 @@ namespace Lab_10_Classes___Circle
         #endregion
 
         #region Constructors
-        public Circle(double radius)
+        public Circle(double _radius, double _circumference, double _area)
         {
-
+            radius = _radius;
+            circumference = _circumference;
+            area = _area;
         }
 
         #endregion
 
         #region Methods
-        public double CalculateCircumference()
+        public static double CalculateCircumference(double radius)
         {
-            radius = 6;
-            double circumference = Math.PI * 2 * radius;
+            double circumference = Math.Round(Math.PI * 2 * radius,2);
             return circumference;
         }
-        public string CalculateFormattedCircumference()
+        public static double CalculateArea(double radius)
         {
-            //extra credit
-        }
-        public double CalculateArea()
-        {
-            double area = Math.PI * radius * radius;
+            double area = Math.Round(Math.PI * radius * radius,2);
             return area;
         }
-        public string CalculateFormattedArea()
+        public static bool AskRepeat(string message)
         {
-            //extra credit
+            Console.WriteLine(message);
+
+            bool repeat = true;
+            bool cont = true;
+            while (cont)
+            {
+                string usrInput = Console.ReadLine().ToLower();
+                try
+                {
+                    if (usrInput == "y")
+                    {
+                        repeat = true;
+                        cont = false;
+                    }
+                    else if (usrInput == "n")
+                    {
+                        repeat = false;
+                        cont = false;
+                    }
+                    else
+                    {
+                        Console.WriteLine("Invalid response, please respond with y or n, then press enter.");
+                        continue;
+                    }
+
+                }
+                catch
+                {
+                    Console.WriteLine("Invalid response, please respond with y or n, then press enter.");
+                    continue;
+                }
+            }
+            return repeat;
         }
-
-
         #endregion
     }
 }

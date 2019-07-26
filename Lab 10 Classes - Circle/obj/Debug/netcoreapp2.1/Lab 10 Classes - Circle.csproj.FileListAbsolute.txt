@@ -1,0 +1,11 @@
+C:\Users\Cody's PC\Desktop\Lab-10---Lists\Lab 10 Classes - Circle\obj\Debug\netcoreapp2.1\Lab 10 Classes - Circle.csprojAssemblyReference.cache
+C:\Users\Cody's PC\Desktop\Lab-10---Lists\Lab 10 Classes - Circle\obj\Debug\netcoreapp2.1\Lab 10 Classes - Circle.csproj.CoreCompileInputs.cache
+C:\Users\Cody's PC\Desktop\Lab-10---Lists\Lab 10 Classes - Circle\obj\Debug\netcoreapp2.1\Lab 10 Classes - Circle.AssemblyInfoInputs.cache
+C:\Users\Cody's PC\Desktop\Lab-10---Lists\Lab 10 Classes - Circle\obj\Debug\netcoreapp2.1\Lab 10 Classes - Circle.AssemblyInfo.cs
+C:\Users\Cody's PC\Desktop\Lab-10---Lists\Lab 10 Classes - Circle\bin\Debug\netcoreapp2.1\Lab 10 Classes - Circle.deps.json
+C:\Users\Cody's PC\Desktop\Lab-10---Lists\Lab 10 Classes - Circle\bin\Debug\netcoreapp2.1\Lab 10 Classes - Circle.runtimeconfig.json
+C:\Users\Cody's PC\Desktop\Lab-10---Lists\Lab 10 Classes - Circle\bin\Debug\netcoreapp2.1\Lab 10 Classes - Circle.runtimeconfig.dev.json
+C:\Users\Cody's PC\Desktop\Lab-10---Lists\Lab 10 Classes - Circle\bin\Debug\netcoreapp2.1\Lab 10 Classes - Circle.dll
+C:\Users\Cody's PC\Desktop\Lab-10---Lists\Lab 10 Classes - Circle\bin\Debug\netcoreapp2.1\Lab 10 Classes - Circle.pdb
+C:\Users\Cody's PC\Desktop\Lab-10---Lists\Lab 10 Classes - Circle\obj\Debug\netcoreapp2.1\Lab 10 Classes - Circle.dll
+C:\Users\Cody's PC\Desktop\Lab-10---Lists\Lab 10 Classes - Circle\obj\Debug\netcoreapp2.1\Lab 10 Classes - Circle.pdb
